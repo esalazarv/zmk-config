@@ -29,7 +29,7 @@
 
 / {
         behaviors {
-                shift_caps: shift_caps {
+                shift_caps: shift_caps_lock {
                         compatible = "zmk,behavior-hold-tap";
                         #binding-cells = <0>;
                         flavor = "tap-preferred";
