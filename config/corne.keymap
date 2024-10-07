@@ -16,7 +16,7 @@
 / {
 
         behaviors {
-           ml: mod_layer_hold_tap: {
+           ml: mod_layer_hold_tap {
                compatible = "zmk,behaviors-hold-tap";
                #binding-cells = <2>;
                flavor = "tap-preferred";
