@@ -87,9 +87,9 @@
 // | SHFT |     |     |       | C_BRI_DN |     |   |       | REPT | SHUFLE | CAPTIONS |     |      |
 //                    | LCTRL |     | LGUI     |   | SPACE |      | ALT    |
                         bindings = <
-   &kp ESC          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none      &kp C_VOL_DN  &kp C_MUTE     &kp C_VOL_UP     &none     &none
+   &kp ESC          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none      &kp C_VOL_DN  &kp C_MUTE     &kp C_VOL_UP     &none     &bt BT_CLR
    &kp TAB          &none         &none         &none         &kp C_BRI_UP  &none            &kp C_RW   &kp C_PREV    &kp C_PP       &kp C_NEXT       &kp C_FF  &kp C_STOP
-   &td_shift_caps   &none         &BT_CLR       &none         &kp C_BRI_DN  &none            &none      &kp C_REPEAT  &kp C_SHUFFLE  &kp C_CAPTIONS   &none     &none
+   &td_shift_caps   &none         &none         &none         &kp C_BRI_DN  &none            &none      &kp C_REPEAT  &kp C_SHUFFLE  &kp C_CAPTIONS   &none     &none
                                                 &kp LCTRL     &trans        &kp LGUI         &kp SPACE  &trans        &kp RALT
                         >;
                 };
